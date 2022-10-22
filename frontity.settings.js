@@ -31,6 +31,24 @@ const settings = {
         }
       }
     },
+    {
+      "name": "@frontity/yoast",
+      "state": {
+        "yoast": {
+          "transformLinks": {
+            "ignore": "^(wp-(json|admin|content|includes))|feed|comments|xmlrpc",
+          },
+        },
+      },
+    },
+    {
+      "name": "@frontity/google-analytics",
+      "state": {
+        "googleAnalytics": {
+          "trackingId": "G-VRZMTH4H2Z",
+        },
+      },
+    },
     "@frontity/tiny-router",
     "@frontity/html2react"
   ]
