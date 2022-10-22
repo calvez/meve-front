@@ -4,7 +4,7 @@ const settings = {
     "frontity": {
       "url": "https://magyaremlekekert.hu",
       "title": "Magyar Emlékekért a Világban",
-      "description": "WordPress installation for Frontity development"
+      "description": ""
     }
   },
   "packages": [
@@ -17,14 +17,17 @@ const settings = {
             "showOnList": true,
             "showOnPost": false
           }
-        }
-      }
+        },
+        "source": {
+          "url": "https://api.magyaremlekekert.hu",
+        },
+      },
     },
     {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://magyaremlekekert.hu"
+          "url": "https://api.magyaremlekekert.hu"
         }
       }
     },
