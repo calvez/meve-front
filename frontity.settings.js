@@ -1,5 +1,5 @@
 const settings = {
-  "name": "my-first-frontity-project",
+  "name": "meve-frontend",
   "state": {
     "frontity": {
       "url": "https://magyaremlekekert.hu",
@@ -9,7 +9,7 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "@frontity/twentytwenty-theme",
       "state": {
         "theme": {
           "menu": [],
